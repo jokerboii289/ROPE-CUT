@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2198701253097672773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2198701253097672770}
+  - component: {fileID: 2198701253097672771}
+  m_Layer: 0
+  m_Name: Soundmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2198701253097672770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2198701253097672773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.5599995, y: -45.5, z: 2.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2198701253097672771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2198701253097672773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e722792cd9299e4f92717cca37b0038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: characterAdd
+    clip: {fileID: 8300000, guid: fd6f6878291b64a4488c7515e1d58e95, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 0.79
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: characterDeduct
+    clip: {fileID: 8300000, guid: 88503c52adbb9ac46b4faa6afccffa21, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 0.79
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: swipe
+    clip: {fileID: 8300000, guid: 0876f2feff8ec2746b9546b2ee540da8, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: win
+    clip: {fileID: 8300000, guid: dffe3a65c1f6d6e468358fe17e018a62, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: loose
+    clip: {fileID: 8300000, guid: d4ca2c09bb1ea8a4caa6bcb691212d29, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: playerDeathSplash
+    clip: {fileID: 8300000, guid: b431032d2d8f2a04eb82b4a155d1d888, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: e059183f770b40141b9d07beddd170c1, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: kick2
+    clip: {fileID: 8300000, guid: c400ad9075e2c8f4b93eba2c16777d23, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: kick3
+    clip: {fileID: 8300000, guid: b0a1c9ddb8e65cd47b8675afbf1679a4, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: kick4
+    clip: {fileID: 8300000, guid: cff700e3cf64dd346b93f0a30e459af9, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: kick5
+    clip: {fileID: 8300000, guid: b0be5b3655fa7b447a25c699cb2adda0, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1.06
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5b32a03eafdfe02439ccf408d7d816e6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Anja Eliane accent
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b1651dbaf8c6b5f4ba0a6d138c39fa34, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

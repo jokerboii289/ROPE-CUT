@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - character
+  - anchor
+  - Ring
+  - spawnAnchor
+  - ringEnter
+  - Missile
+  - Ground
+  - knife
+  - rootcam
+  - rope
+  - boss
+  - GroundCharacter
+  - loose
+  - restPoint
+  - collectables
+  - yellow
+  - red
+  - randomcolor
+  - blue
+  - pink
+  - green
+  - destructible
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - b1
+  - b2
+  - b3
+  - b4
+  - ' b5'
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
